@@ -17,7 +17,7 @@ title: Del Prado Law
 #email: ""
 description: San Antonio Based Criminal Defense
 #baseurl: "." # Subpath of your site, e.g. /blog. Prepend a dot for links to assets for compatability on Arweave.
-url: "https://sarcophagus.io" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://delpradolaw.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 #repository: "/sarcophagus-org/marketing_site"
@@ -29,11 +29,7 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
-  - how_it_works.html
-  - sarco_token.html
-  - incentives.html
-  - about.html
-  - blog.html
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
