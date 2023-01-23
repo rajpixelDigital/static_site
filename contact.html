@@ -7,7 +7,21 @@ title: Contact
 <div id="alert-hero" class="container">
   <div class="row">
     <div class="col">
-      <h1>Contact Form Goes Here</h1>
+      <form
+        action="https://formspree.io/f/mjvdkdzl"
+        method="POST"
+      >
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
     </div>
   </div>
 </div>
