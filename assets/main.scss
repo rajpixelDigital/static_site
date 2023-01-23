@@ -108,6 +108,7 @@ h2 {
 
 .navbar-light .navbar-nav .nav-link {
   color: #000;
+  font-size: 1.75rem;
 }
 
 .nav-item .dropdown {
@@ -127,10 +128,6 @@ h2 {
   height: 25px;
 }
 
-.navbar-dark .navbar-toggler {
-  border-color: #fff;
-  border-radius: 0;
-}
 
 .navbar-light .navbar-toggler {
   border-color: #000;
@@ -139,6 +136,7 @@ h2 {
 
 .navbar-toggler-icon {
   color: #000;
+  height: 2rem;
 }
 
 .navbar-dark .navbar-toggler-icon {
