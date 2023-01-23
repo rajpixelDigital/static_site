@@ -70,6 +70,10 @@ h2 {
   height: 90px;
 }
 
+.navbar-light {
+  background-color: #fff;
+}
+
 .navbar-nav {
   font-family: 'Roboto Mono', monospace;
 }
@@ -87,13 +91,17 @@ h2 {
   color: #fff;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
 .nav-item .dropdown {
   margin-left: 25px;
   padding-top: 8px;
 }
 
 .dropdown-toggle:hover {
-  color: #fff;
+  color: red;
 }
 
 .nav-icon-20 {
@@ -109,8 +117,13 @@ h2 {
   border-radius: 0;
 }
 
+.navbar-light .navbar-toggler {
+  border-color: #000;
+  border-radius: 0;
+}
+
 .navbar-toggler-icon {
-  color: #fff;
+  color: #000;
 }
 
 .navbar-dark .navbar-toggler-icon {
