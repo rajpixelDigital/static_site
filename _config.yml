@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sarcophagus - Dead Man's Switch
+title: Del Prado Law
 #email: ""
-description: A decentralized, crypto-powered dead man's switch built on ethereum and arweave.
+description: San Antonio Based Criminal Defense
 #baseurl: "." # Subpath of your site, e.g. /blog. Prepend a dot for links to assets for compatability on Arweave.
 url: "https://sarcophagus.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
