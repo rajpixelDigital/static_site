@@ -206,6 +206,7 @@ h2 {
   text-align: justify;
   text-justify: inter-word;
   color: #000;
+  font-size: 18px;
 }
 
 .sarco-footer li {
@@ -249,12 +250,6 @@ h2 {
   border: 8px solid #111;
 }
 
-.litepaper-sum p {
-  font-size: 10px;
-  padding-top: 20px;
-  color: #777;
-}
-
 #sub-hero {
   padding-top: 100px;
   padding-bottom: 80px;
@@ -271,6 +266,7 @@ h2 {
 #sub-hero p {
   text-align: center;
   color: #000!important;
+  font-size: 18px;
 }
 
 #use-cases {
@@ -341,11 +337,6 @@ h2 {
 .partner-box {
   border: 1px solid #000;
   padding: 10px, 30px;
-}
-
-.partner-box img {
-  padding-bottom: 10px;
-  max-height: 100px;
 }
 
 .partner-box h3 {
