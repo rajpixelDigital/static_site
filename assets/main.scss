@@ -232,6 +232,8 @@ h2 {
 
 #hero p {
   padding-bottom: 20px;
+  font-size: 18px;
+  color: #fff;
 }
 
 #hero p a {
@@ -262,6 +264,7 @@ h2 {
   color: #000!important;
   font-weight: 700;
   font-size: 24px;
+  padding-bottom: 15px;
 }
 
 #sub-hero p {
@@ -284,6 +287,11 @@ h2 {
   padding-top: 40px;
   padding-bottom: 30px;
   margin-top: 30px;
+}
+
+.use-box p {
+  color: #fff;
+  font-size: 18px;
 }
 
 #timeline {
