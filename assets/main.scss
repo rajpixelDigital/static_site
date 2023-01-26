@@ -495,13 +495,17 @@ h2 {
 
 /* Form */
 
- .form-field {
+label {
+  display: inherit;
+}
 
- }
+.form-field {
 
-  .form-field input {
+}
+
+.form-field input, textarea{
     width: 100%;
-  }
+}
 
 .form-field input, textarea {
   font-family:inherit;
