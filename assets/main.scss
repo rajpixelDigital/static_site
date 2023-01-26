@@ -216,6 +216,9 @@ h2 {
   padding-top: 50px;
   padding-bottom: 150px;
   background-color: #000;
+  background-image: url("{{site.baseurl}}/assets/img/texas-bg-2.jpg");
+  background-origin: center;
+  background-size: cover;
 }
 
 #hero p {
