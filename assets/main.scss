@@ -9,6 +9,17 @@
 @import "bootstrap_customization";
 
 
+/* colors in use
+
+Black #000
+Dark Grey #111
+Dark Red: #8C142B
+Dark Blue: #183F60
+
+
+
+*/
+
 /* Global Styles */
 
 * {
@@ -26,36 +37,36 @@ h1 , h2, h3, h4, h5, h6, p, li, a {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 
 .btn-dark {
-  border-color: #fff;
+  border-color: #8C142B;
   border-width: 1px;
   border-radius: 0;
-  color: #fff;
+  color: #8C142B;
   background-color: #000;
-  font-size: 14px;
+  font-size: 24px;
   padding: 15px 60px;
 }
 
 .btn-dark:hover {
-  color: #000;
+  color: #8C142B;
   background-color: #fff;
 }
 
 .btn-dark:active {
-  color: #000;
+  color: #8C142B;
   background-color: #fff;
 }
 
 .btn-dark:focus {
-  color: #000;
+  color: #8C142B;
   background-color: #fff;
 }
 
@@ -215,9 +226,10 @@ h2 {
 #hero {
   padding-top: 50px;
   padding-bottom: 150px;
-  background-color: #000;
+  background-color: #777;
   background-image: url("{{site.baseurl}}/assets/img/tx-bg-2.jpg");
   background-size: cover;
+  background-blend-mode: multiply;
 }
 
 #hero p {
@@ -230,6 +242,10 @@ h2 {
 
 #hero p a:hover {
   color: #fff;
+}
+
+#hero img {
+  border: 8px solid #111;
 }
 
 .litepaper-sum p {
