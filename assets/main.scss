@@ -503,6 +503,11 @@ h2 {
     width: 100%;
   }
 
+.form-field input, textarea {
+  font-family:inherit;
+  font-size: inherit;
+}
+
 
 
 /* Media Queries for Mobile*/
