@@ -196,7 +196,7 @@ h2 {
   color: #000;
   background-color: #fff;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   border-top: 1px solid #000;
   margin-top: -1px;
 }
@@ -214,6 +214,11 @@ h2 {
 }
 
 .sarco-footer a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.sarco-footer a:hover {
   text-decoration: underline;
   color: #000;
 }
@@ -300,7 +305,7 @@ h2 {
   color: #000;
   text-align: left;
   padding-top: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 #partners h2 {
@@ -474,7 +479,7 @@ h2 {
 }
 
 #partners img {
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 label {
